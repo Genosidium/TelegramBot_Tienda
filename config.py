@@ -13,9 +13,9 @@ load_dotenv()
 # CONFIGURACIÓN DEL BOT
 # ====================================
 
-# Token del bot de Telegram (obtenido de BotFather)
+
 # Opción 1: Usar variable de entorno (más seguro)
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN') or os.getenv('TELEGRAM_BOT_TOKEN') or '8307601128:AAH9HvjqUn6zQb0Jdn1U1rYck5BrQA7SWqw'
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN') or os.getenv('TELEGRAM_BOT_TOKEN') or ''
 
 # Chat ID del administrador (opcional)
 ADMIN_CHAT_ID = os.getenv('ADMIN_CHAT_ID')
@@ -25,8 +25,7 @@ if ADMIN_CHAT_ID:
     except ValueError:
         ADMIN_CHAT_ID = None
 
-# Opción 2: Si prefieres hardcodearlo (menos seguro, solo para desarrollo)
-# TELEGRAM_TOKEN = '1234567890:ABCdefGHIjklMNOpqrsTUVwxyz'
+
 
 # ====================================
 # CONFIGURACIÓN DE BASE DE DATOS

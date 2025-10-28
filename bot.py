@@ -357,8 +357,8 @@ async def cancelar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Función principal"""
-    # IMPORTANTE: Reemplaza 'TU_TOKEN_AQUI' con el token de BotFather
-    TOKEN = '8307601128:AAH9HvjqUn6zQb0Jdn1U1rYck5BrQA7SWqw'
+    
+    TOKEN = ''
     # Crear la aplicación
     application = Application.builder().token(TOKEN).build()
     

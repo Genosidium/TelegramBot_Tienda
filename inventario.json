@@ -1,0 +1,10 @@
+{
+  "Manzana": {
+    "nombre": "Manzana",
+    "cantidad": 15,
+    "cantidad_inicial": 15,
+    "precio": 27.0,
+    "categoria": "Frutas",
+    "fecha_creacion": "2025-10-28T14:55:17.915678"
+  }
+}
